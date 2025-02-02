@@ -1,6 +1,6 @@
 export const Environment = {
   production: false,
-  APP_NAME: '[test] ng-template',
+  APP_NAME: '[test] tetris-jr',
   ENV_NAME: 'test',
   API_APP: 'http://localhost:4200',
   API_URL: 'http://localhost:2719',

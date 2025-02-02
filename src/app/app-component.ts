@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/components/layout/header/header.component';
-import { FooterComponent } from './shared/components/layout/footer/footer.component';
 import { Environment } from '../environments/environment';
 import { Title } from '@angular/platform-browser';
 import { ToastModule } from 'primeng/toast';
@@ -10,7 +9,7 @@ import { RippleModule } from 'primeng/ripple';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, ToastModule, RippleModule],
+  imports: [RouterOutlet, HeaderComponent, ToastModule, RippleModule],
   templateUrl: './app-component.html',
   styleUrl: './app-component.css',
 })

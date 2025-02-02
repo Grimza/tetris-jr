@@ -1,18 +1,9 @@
 <div class="header__principal">
-  <div class="header__principal__logo">
-    <img [src]="LOGO" alt="Logo" width="150px" />
+  <div class="header__principal__profile-status">
+
   </div>
   <div class="header__principal__menu">
-    <div class="header__principal__menu__item" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</div>
-    <div class="header__principal__menu__item" [routerLink]="['/about']" routerLinkActive="router-link-active">About</div>
-    <div class="header__principal__menu__item" >
-      Services <i class="pi pi-angle-down" style="padding-top: 7px; font-size: 10px;"></i>
-      <div class="header__principal__menu__item__submenu">
-        <div class="header__principal__menu__item__submenu__item" *ngFor="let service of services_we_offer">
-          <div [routerLink]="['/business-services',service.id]" routerLinkActive="router-link-active">{{ service.name }}</div>
-        </div>
-      </div>
-    </div>
-    <div class="header__principal__menu__item" [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</div>
+    <div class="header__principal__menu__item" style="width: 15%;"> </div>
+    <div class="header__principal__menu__item" style="width: 5%;"> </div>
   </div>
 </div>

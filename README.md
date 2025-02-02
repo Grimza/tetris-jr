@@ -1,2 +1,2 @@
-# ng-template
-This is an angular template!
+# tetris-jr
+Tetris in Angular, just for testing and fun.
